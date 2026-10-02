@@ -1,0 +1,6 @@
+Moments the clip must show (in order):
+1. [x] Police lights flash over the screen, the GTA V TAKEOVER logo, WANTED stars and the minimap radar appear.
+2. [x] Police car models with light bars arrive in front of the player, red dots on the minimap.
+3. [x] A yellow taxi model drives across the room and rams a police car.
+4. [x] The cop car flips and explodes, WASTED banner in slow motion, cash counter goes up.
+5. [x] MISSION PASSED with cash-stack models raining down, then a new chase with more stars and more cops.

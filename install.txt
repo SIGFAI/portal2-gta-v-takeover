@@ -1,0 +1,1 @@
+Copy the mod folder's scripts, sound, materials and models folders into a Portal 2 mod folder (for example portal2/sigf), then launch Portal 2 with -game sigf and load sp_a2_triple_laser. The chase starts by itself.

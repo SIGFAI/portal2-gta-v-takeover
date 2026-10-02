@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/gta/h_logo"
+	"$model" "1"
+	"$translucent" "1"
+	"$nocull" "1"
+}
