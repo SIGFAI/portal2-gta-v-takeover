@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "GTA V Takeover",
   "tagline": "Bring GTA V into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "A GTA chase takes over the test chamber: police cars with turrets roll in and taxis ram them one by one.",
+    "Every cop that falls gets WASTED in slow motion, then MISSION PASSED rains cash on the floor.",
+    "Each new wave brings more wanted stars and more cops; your cash shows in the corner.",
+    "Open the console and type: map sp_a2_triple_laser"
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -449,8 +455,5 @@
     "id": "portal2",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:24:08.770Z",
-  "notes": [
-    "Copy the mod folder's scripts, sound, materials and models folders into a Portal 2 mod folder (for example portal2/sigf), then launch Portal 2 with -game sigf and load sp_a2_triple_laser. The chase starts by itself."
-  ]
+  "built_at": "2026-10-05T15:24:08.770Z"
 }
