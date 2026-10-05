@@ -455,5 +455,7 @@
     "id": "portal2",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:24:08.770Z"
+  "built_at": "2026-10-05T15:24:08.770Z",
+  "listed": false,
+  "unlisted_reason": "Only playable in the stream demo for now: a player mode for this kit is coming."
 }
