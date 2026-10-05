@@ -1,0 +1,456 @@
+{
+  "id": "sigf/portal2-gta-v-takeover",
+  "version": "1.0.0",
+  "name": "GTA V Takeover",
+  "tagline": "Bring GTA V into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "gta5",
+      "role": "guest",
+      "label": "GTA V"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-gta-v-takeover.zip",
+          "dst": "{game}/sigf_gta_v_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/models/gta/cash.vmt",
+              "sha256": "08cf32f4b54c455b9c73259a8ed482ef59694235b8ca1e4f9358435d36d29ce0"
+            },
+            {
+              "path": "materials/models/gta/cash.vtf",
+              "sha256": "a30d472791e8c7ecb3d5b78734495177c1c441a6f4bf64078025196b04b51bd2"
+            },
+            {
+              "path": "materials/models/gta/copcar.vmt",
+              "sha256": "ac81183739cd8cbb17041f371cc5890bf19852b0aff62c461d2622eb37ebffb3"
+            },
+            {
+              "path": "materials/models/gta/copcar.vtf",
+              "sha256": "b40ecb42e04ff875b8c31d17c030bed3df373ac647825bb7860ee3f94a0589f5"
+            },
+            {
+              "path": "materials/models/gta/h_dot_r.vmt",
+              "sha256": "73f87915b24f723ee771789b0615709be6b8ac8ec7cc86501224324e17341db4"
+            },
+            {
+              "path": "materials/models/gta/h_dot_r.vtf",
+              "sha256": "c9f9c91d45483c9317dea8aab72a9e647795954fd88d8cc507697a8c700c042d"
+            },
+            {
+              "path": "materials/models/gta/h_dot_y.vmt",
+              "sha256": "5d0ae8140bcb885df934b4a36ff82fc802a12ee06b53b41866f178e7bfcec0a8"
+            },
+            {
+              "path": "materials/models/gta/h_dot_y.vtf",
+              "sha256": "be026228720a9fc5739fbe8c3dda17aefb293d5434afdc126544490fdd055ec4"
+            },
+            {
+              "path": "materials/models/gta/h_logo.vmt",
+              "sha256": "af52f615e810b7c311f878744fa455c5176feef7dba7da57d381e8338ecab37a"
+            },
+            {
+              "path": "materials/models/gta/h_logo.vtf",
+              "sha256": "0f93adc1a23912e7761af272df4a1dfc13b9fd7124ea46e3368bd3d1f4d49ccf"
+            },
+            {
+              "path": "materials/models/gta/h_passed_b.vmt",
+              "sha256": "3ac2f9c745b466326197818f1a79b5312753ffe10dbac520951e6aabe0aacde3"
+            },
+            {
+              "path": "materials/models/gta/h_passed_b.vtf",
+              "sha256": "1c4b2f2476ad8c0f72f9ac165c7eb859f91c16d9d5ef75d6d1c091bd014cb35a"
+            },
+            {
+              "path": "materials/models/gta/h_radar.vmt",
+              "sha256": "72bd5b464e70e56cf0cefd6c68f2c5450f84bb483edaf7a5105c0fc77012a3a1"
+            },
+            {
+              "path": "materials/models/gta/h_radar.vtf",
+              "sha256": "f68155005459b43cc619df44ebd2c2dcec4c89837e360946b4b6e0b8f8f50371"
+            },
+            {
+              "path": "materials/models/gta/h_wanted1.vmt",
+              "sha256": "6e1039a35476d6821b39506cafd767c72b88be989245240b3a0bb4f6572aafc6"
+            },
+            {
+              "path": "materials/models/gta/h_wanted1.vtf",
+              "sha256": "7b5040f2a49d762bac6a8c205a853188234c5b51dda52a5c1d9215f234057064"
+            },
+            {
+              "path": "materials/models/gta/h_wanted2.vmt",
+              "sha256": "5504f329ffdfb4ed48f1017f700d60db1ddfcc4baef9b1ed7ed45e8e40a948a0"
+            },
+            {
+              "path": "materials/models/gta/h_wanted2.vtf",
+              "sha256": "80abd82619dc0a08aea6db0b6c66a241603e331ce92b34b7271756bbfd6d0b3a"
+            },
+            {
+              "path": "materials/models/gta/h_wanted3.vmt",
+              "sha256": "0bbc0be1cf7c4c022fea599c1b20b22258a8da52c000499134a4ce0d356fbfbc"
+            },
+            {
+              "path": "materials/models/gta/h_wanted3.vtf",
+              "sha256": "f9812bf49ff9b49f9dc52e58f9c044a7a8c693d3f8bab8ff5ba700918a9b91a1"
+            },
+            {
+              "path": "materials/models/gta/h_wanted4.vmt",
+              "sha256": "07d06c9ecabc6e4a448dac707acb56f4cfbdcbe4b37da36e0b312e6ee87bda7f"
+            },
+            {
+              "path": "materials/models/gta/h_wanted4.vtf",
+              "sha256": "7afa5ba4a694c55b8f74f49e8e978b35069f157c4e2001f57d88dc89e214eb06"
+            },
+            {
+              "path": "materials/models/gta/h_wanted5.vmt",
+              "sha256": "ff1a61e78ab23aec7c4886ee1ebfbaa85501809b3dc95954d493150027ef8dae"
+            },
+            {
+              "path": "materials/models/gta/h_wanted5.vtf",
+              "sha256": "458e4120cf1e045d6a464283d6e5155184a4cbc3843b94c5b6c32109af371957"
+            },
+            {
+              "path": "materials/models/gta/h_wasted_b.vmt",
+              "sha256": "48378d808275f848a5424bc2057655bb16069e99061bf3bf2bea657cc3897f5b"
+            },
+            {
+              "path": "materials/models/gta/h_wasted_b.vtf",
+              "sha256": "8e02a4b211b3662278093a6b689c147a83153ffa77cc85cc73f79e7dab5379ca"
+            },
+            {
+              "path": "materials/models/gta/taxi.vmt",
+              "sha256": "65340c090cd9fa6be824b114aadcc4797fde9d2a225cfa6d58b108a62d95450e"
+            },
+            {
+              "path": "materials/models/gta/taxi.vtf",
+              "sha256": "b0f7684da31eaedcf9054e773fc30f26d7f865d66b42a28841f9cf7fe5edf9d5"
+            },
+            {
+              "path": "models/gta/cash.dx90.vtx",
+              "sha256": "38d32d82f0eb4cab4fb654bf0d2212e34ea46fd03dca152211d51ec3c0118be1"
+            },
+            {
+              "path": "models/gta/cash.mdl",
+              "sha256": "b1a39c6554a294e9470e9e7d09cb04bcfb44fe72bc2fab5fef119139d4048f5a"
+            },
+            {
+              "path": "models/gta/cash.vvd",
+              "sha256": "095295166b28c2b29b0c601a9e1217fb7b5b10f333a9d2cf5df5b6c13b4b47ec"
+            },
+            {
+              "path": "models/gta/copcar.dx90.vtx",
+              "sha256": "62947520a35705137ec81b0cff8b44d8f8cbbf26ced3e8b50e3ffbba159ac7c1"
+            },
+            {
+              "path": "models/gta/copcar.mdl",
+              "sha256": "5be165d2b43d93c95461861dd973b4d28759324a7e2ce7414b8940eec6934c8c"
+            },
+            {
+              "path": "models/gta/copcar.vvd",
+              "sha256": "156b7241ccf0fb1ae826c849f5201b8a1764b544de6f6e33c968218fd645c6c5"
+            },
+            {
+              "path": "models/gta/h_dot_r.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_dot_r.mdl",
+              "sha256": "ffec7f1936b24b5af807e5682cfc3ce0c8c88b0d4b1aaa6445fac8e7486139cd"
+            },
+            {
+              "path": "models/gta/h_dot_r.vvd",
+              "sha256": "fde89ae6490fb66d5547acf278abdc21a77f6f94e44a0a699416e93b0b2df9ea"
+            },
+            {
+              "path": "models/gta/h_dot_y.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_dot_y.mdl",
+              "sha256": "3e5a2a75d76da7b651a264cbff9388e8b43a526ab8941cb9ca80e63861386064"
+            },
+            {
+              "path": "models/gta/h_dot_y.vvd",
+              "sha256": "fde89ae6490fb66d5547acf278abdc21a77f6f94e44a0a699416e93b0b2df9ea"
+            },
+            {
+              "path": "models/gta/h_logo.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_logo.mdl",
+              "sha256": "8e21a336c52791679fbf46690cce80eb683abdd2e96192ae20efa9602c81e8ec"
+            },
+            {
+              "path": "models/gta/h_logo.vvd",
+              "sha256": "2f66fac03154e16d310a27d2dc7c0db6979816eb46859d82f7b02e20fd834a57"
+            },
+            {
+              "path": "models/gta/h_passed_b.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_passed_b.mdl",
+              "sha256": "6ee7810555bd450066740b076178df566531934191473625f27a96f5702221a5"
+            },
+            {
+              "path": "models/gta/h_passed_b.vvd",
+              "sha256": "05366d45f572f927b94fb63552997c9174b1a1af4bfeb4a137624333f5658e4f"
+            },
+            {
+              "path": "models/gta/h_radar.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_radar.mdl",
+              "sha256": "02d254301a34e6952db9dfe6691d49c88f6fa320d698a00a3793a7d9fee8e921"
+            },
+            {
+              "path": "models/gta/h_radar.vvd",
+              "sha256": "ee6a01ae4ab8a48423670ce755c5de1201bd2742b787563e5c4ee897e6c75568"
+            },
+            {
+              "path": "models/gta/h_wanted1.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_wanted1.mdl",
+              "sha256": "0aefc0c3add137adca49723e1c87b4d13dbd96ac9d39a315bdf39a939390e910"
+            },
+            {
+              "path": "models/gta/h_wanted1.vvd",
+              "sha256": "dce801666b682b9824dc207c57c60c1a1129adb5d182b9e994a9f7bcab2748b7"
+            },
+            {
+              "path": "models/gta/h_wanted2.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_wanted2.mdl",
+              "sha256": "bb94d291794fa6e8e30f73e0c3d2e8349734fd4f24543d65aa7c7efd6ad12bc8"
+            },
+            {
+              "path": "models/gta/h_wanted2.vvd",
+              "sha256": "dce801666b682b9824dc207c57c60c1a1129adb5d182b9e994a9f7bcab2748b7"
+            },
+            {
+              "path": "models/gta/h_wanted3.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_wanted3.mdl",
+              "sha256": "766930d4ca3545e69d8ba7ea51230b143c18c059fe4a55c8bc707b4c19ac716c"
+            },
+            {
+              "path": "models/gta/h_wanted3.vvd",
+              "sha256": "dce801666b682b9824dc207c57c60c1a1129adb5d182b9e994a9f7bcab2748b7"
+            },
+            {
+              "path": "models/gta/h_wanted4.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_wanted4.mdl",
+              "sha256": "f92c182eb5620b0954113e3e665312a9cd078dc8a7b370dacbd93f4a2f24839c"
+            },
+            {
+              "path": "models/gta/h_wanted4.vvd",
+              "sha256": "dce801666b682b9824dc207c57c60c1a1129adb5d182b9e994a9f7bcab2748b7"
+            },
+            {
+              "path": "models/gta/h_wanted5.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_wanted5.mdl",
+              "sha256": "91b0d0da57b731ee76502d4cea1b2008ea59ac5ba678fe97e77f0c13a0bfb591"
+            },
+            {
+              "path": "models/gta/h_wanted5.vvd",
+              "sha256": "dce801666b682b9824dc207c57c60c1a1129adb5d182b9e994a9f7bcab2748b7"
+            },
+            {
+              "path": "models/gta/h_wasted_b.dx90.vtx",
+              "sha256": "014f557c965ab968f5c30ccfdc1d6de0f867ad4735d28f4d7ec2134c1a98b29a"
+            },
+            {
+              "path": "models/gta/h_wasted_b.mdl",
+              "sha256": "5ffcb4225c05e03f79e73a868d6790708610c009398302f3ce3a9873323ec978"
+            },
+            {
+              "path": "models/gta/h_wasted_b.vvd",
+              "sha256": "05366d45f572f927b94fb63552997c9174b1a1af4bfeb4a137624333f5658e4f"
+            },
+            {
+              "path": "models/gta/taxi.dx90.vtx",
+              "sha256": "2d1ca684da026ef41630ac6a024c4aa59f4644261de601989a0e2b1246798a10"
+            },
+            {
+              "path": "models/gta/taxi.mdl",
+              "sha256": "6d73ce18524a2ebe3d29cd01b6ebb59d22ae12b75f2f1e2b76f741876a5181a3"
+            },
+            {
+              "path": "models/gta/taxi.vvd",
+              "sha256": "1ea8fde491c1c495f047d5055a1b603b490e98d9df515aa65932d2b6af6487df"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "f246bce2e77468058df85b897ada2eeabc5272d2c2d7023bb9535f63aa451e5c"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "5d85a35bc616ec4012365b04a85098f1897754fa0216c2c4ebba0ff2b1d2df2f"
+            },
+            {
+              "path": "sound/sigf/cash.wav",
+              "sha256": "36a87f915390ad03528512bbfe44c9d1d2b2c750c4aadcc1dfb5d20368e306c0"
+            },
+            {
+              "path": "sound/sigf/gunshot.wav",
+              "sha256": "de048760e5b408c6a2a320ea9ef6835ac4ab6473c1a64d404d6e77aeb2bffdda"
+            },
+            {
+              "path": "sound/sigf/honk.wav",
+              "sha256": "69fd69fdaca8d44129e76d0fdcbb0bd31632cb900120ffb8f59753a379d59a74"
+            },
+            {
+              "path": "sound/sigf/radio.wav",
+              "sha256": "fb60e9c7f716b55664626a0aa3abd1bb0fa3cc0ec93f7971e014c6f7efb56cea"
+            },
+            {
+              "path": "sound/sigf/siren.wav",
+              "sha256": "05ec00e7f9ea56105127327397dc390d189739d731077b5f4f45f43a269a652b"
+            },
+            {
+              "path": "sound/sigf/wasted.wav",
+              "sha256": "8a61b1a8028cb706198c8d8254adcd752dcee17862cbc1b8f86770cac5b15975"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-gta-v-takeover/releases/download/v1.0.0/portal2-gta-v-takeover.zip",
+          "sha256": "9ae5d4575f15a9dc902f212d538efd9511f3a496add0b47c3d77fa1f10b20403",
+          "size": 5579982
+        },
+        {
+          "src": "portal2-gta-v-takeover-game-kit.zip",
+          "dst": "{game}/sigf_gta_v_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "6f932e25d0bed3c48efe681a7a4c43aab83f42233b55655c27e4f4e5b0950b5e"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "3061dc6a358642db7d716a87ca1e3f12a1f6682b61ba1db03476cb287605f0e1"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "05dd16f6c6c6ba2ff731f3a7c5ab86f5f772bf9f47bcf7615b95b9474ec53175"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "6c9e841b49c906bd8b44608d30d054d07371995dfc1b03f0a593635b174e59f4"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-gta-v-takeover/releases/download/v1.0.0/portal2-gta-v-takeover-game-kit.zip",
+          "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+          "size": 50471
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_gta_v_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-gta-v-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-gta-v-takeover/releases/download/v1.0.0/portal2-gta-v-takeover.zip",
+      "sha256": "9ae5d4575f15a9dc902f212d538efd9511f3a496add0b47c3d77fa1f10b20403",
+      "size": 5579982
+    },
+    {
+      "name": "portal2-gta-v-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-gta-v-takeover/releases/download/v1.0.0/portal2-gta-v-takeover-game-kit.zip",
+      "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+      "size": 50471
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-gta-v-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:24:08.770Z",
+  "notes": [
+    "Copy the mod folder's scripts, sound, materials and models folders into a Portal 2 mod folder (for example portal2/sigf), then launch Portal 2 with -game sigf and load sp_a2_triple_laser. The chase starts by itself."
+  ]
+}
